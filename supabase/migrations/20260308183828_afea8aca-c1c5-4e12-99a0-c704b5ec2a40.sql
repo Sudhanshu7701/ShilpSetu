@@ -1,0 +1,1 @@
+UPDATE public.video_call_requests SET status = 'ended' WHERE order_id = '94094d0e-71c8-49d2-aa89-c138a223b40e' AND status = 'accepted';

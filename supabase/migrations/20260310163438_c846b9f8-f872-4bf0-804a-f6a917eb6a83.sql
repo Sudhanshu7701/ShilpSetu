@@ -1,0 +1,1 @@
+ALTER TABLE public.products ADD COLUMN IF NOT EXISTS rarity_tier text DEFAULT 'common' CHECK (rarity_tier IN ('common', 'rare', 'ultra_rare'));
