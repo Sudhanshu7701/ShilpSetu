@@ -13,7 +13,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-[Live Demo](https://loom-live-stories.vercel.app) · [Report a Bug](https://github.com/Sudhanshu7701/Loom-Live/issues) · [Request a Feature](https://github.com/Sudhanshu7701/Loom-Live/issues)
+· [Report a Bug](https://github.com/Sudhanshu7701/Loom-Live/issues) · [Request a Feature](https://github.com/Sudhanshu7701/Loom-Live/issues)
 
 </div>
 
