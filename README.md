@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧵 LoomLive
+# 🧵 ShilpSetu
 
 ### India's Live Handcraft Marketplace Platform
 
