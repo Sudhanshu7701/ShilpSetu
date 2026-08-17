@@ -13,7 +13,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-· [Report a Bug](https://github.com/Sudhanshu7701/Loom-Live/issues) · [Request a Feature](https://github.com/Sudhanshu7701/Loom-Live/issues)
+· [Report a Bug](https://github.com/Sudhanshu7701/ShilpSetu/issues) · [Request a Feature](https://github.com/Sudhanshu7701/ShilpSetu/issues)
 
 </div>
 
@@ -43,9 +43,9 @@
 
 ## 🎨 About the Project
 
-**LoomLive** is a full-stack web marketplace that connects buyers directly with verified Indian artisans across 18 states — through live craft demonstrations, authentic handmade product listings, and cultural storytelling.
+**ShilpSetu** is a full-stack web marketplace that connects buyers directly with verified Indian artisans across 18 states — through live craft demonstrations, authentic handmade product listings, and cultural storytelling.
 
-> Traditional craft fairs are seasonal and local. Generic e-commerce platforms bury artisans under mass-manufactured products. LoomLive solves both problems at once.
+> Traditional craft fairs are seasonal and local. Generic e-commerce platforms bury artisans under mass-manufactured products. ShilpSetu solves both problems at once.
 
 **What makes it different:**
 
@@ -105,7 +105,7 @@
 ## 📁 Project Structure
 
 ```
-Loom-Live/
+ShilpSetu/
 ├── public/                     # Static assets (favicon, OG image)
 ├── src/
 │   ├── components/             # Reusable UI components
@@ -113,41 +113,41 @@ Loom-Live/
 │   │   ├── layout/             # Header, Footer, Nav
 │   │   ├── product/            # ProductCard, ProductGrid, Filters
 │   │   ├── artisan/            # ArtisanCard, ArtisanProfile
-│   │   ├── cart/               # CartDrawer, CartItem
-│   │   ├── live/               # LiveSessionCard, StreamPlayer
-│   │   └── admin/              # Admin-specific components
-│   ├── pages/                  # Top-level route components
-│   │   ├── Index.tsx           # Home / Landing page
-│   │   ├── Shop.tsx            # Product catalogue
-│   │   ├── ProductDetail.tsx   # Single product page
-│   │   ├── ArtisanProfile.tsx  # Public artisan page
-│   │   ├── Live.tsx            # Live sessions browser
-│   │   ├── Cart.tsx            # Shopping cart
-│   │   ├── Checkout.tsx        # Checkout flow
-│   │   ├── Account.tsx         # Buyer dashboard
-│   │   ├── ArtisanPortal.tsx   # Artisan management portal
-│   │   ├── Admin.tsx           # Admin dashboard
-│   │   ├── Stories.tsx         # Craft stories
-│   │   └── auth/               # Login & Register pages
-│   ├── hooks/                  # Custom React hooks
-│   │   ├── useAuth.ts          # Auth state & helpers
-│   │   ├── useCart.ts          # Cart operations
-│   │   ├── useProducts.ts      # Product queries
-│   │   └── useOrders.ts        # Order queries
+│   │   ├── cart/                # CartDrawer, CartItem
+│   │   ├── live/                # LiveSessionCard, StreamPlayer
+│   │   └── admin/               # Admin-specific components
+│   ├── pages/                   # Top-level route components
+│   │   ├── Index.tsx            # Home / Landing page
+│   │   ├── Shop.tsx             # Product catalogue
+│   │   ├── ProductDetail.tsx    # Single product page
+│   │   ├── ArtisanProfile.tsx   # Public artisan page
+│   │   ├── Live.tsx             # Live sessions browser
+│   │   ├── Cart.tsx             # Shopping cart
+│   │   ├── Checkout.tsx         # Checkout flow
+│   │   ├── Account.tsx          # Buyer dashboard
+│   │   ├── ArtisanPortal.tsx    # Artisan management portal
+│   │   ├── Admin.tsx            # Admin dashboard
+│   │   ├── Stories.tsx          # Craft stories
+│   │   └── auth/                # Login & Register pages
+│   ├── hooks/                   # Custom React hooks
+│   │   ├── useAuth.ts           # Auth state & helpers
+│   │   ├── useCart.ts           # Cart operations
+│   │   ├── useProducts.ts       # Product queries
+│   │   └── useOrders.ts         # Order queries
 │   ├── lib/
-│   │   ├── supabase.ts         # Supabase client initialisation
-│   │   ├── utils.ts            # General utility functions
-│   │   └── schemas.ts          # Zod validation schemas
-│   ├── types/                  # TypeScript type definitions
-│   │   └── database.ts         # Generated from Supabase schema
-│   └── main.tsx                # App entry point
+│   │   ├── supabase.ts          # Supabase client initialisation
+│   │   ├── utils.ts             # General utility functions
+│   │   └── schemas.ts           # Zod validation schemas
+│   ├── types/                   # TypeScript type definitions
+│   │   └── database.ts          # Generated from Supabase schema
+│   └── main.tsx                 # App entry point
 ├── supabase/
-│   └── migrations/             # PLpgSQL database migration files
-├── .env.example                # Environment variable template
-├── index.html                  # HTML entry point
-├── vite.config.ts              # Vite configuration
-├── tailwind.config.ts          # Tailwind configuration
-├── tsconfig.json               # TypeScript configuration
+│   └── migrations/              # PLpgSQL database migration files
+├── .env.example                 # Environment variable template
+├── index.html                   # HTML entry point
+├── vite.config.ts               # Vite configuration
+├── tailwind.config.ts           # Tailwind configuration
+├── tsconfig.json                # TypeScript configuration
 └── package.json
 ```
 
@@ -177,8 +177,8 @@ git --version
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/Sudhanshu7701/Loom-Live.git
-cd Loom-Live
+git clone https://github.com/Sudhanshu7701/ShilpSetu.git
+cd ShilpSetu
 ```
 
 **2. Install dependencies**
@@ -194,7 +194,7 @@ npm install
 
 ### Supabase Setup
 
-LoomLive uses Supabase as its entire backend. You need to create a project and apply the database migrations.
+ShilpSetu uses Supabase as its entire backend. You need to create a project and apply the database migrations.
 
 **Step 1 — Create a Supabase project**
 
@@ -309,7 +309,7 @@ npm run lint
 
 ## 👥 User Roles
 
-LoomLive has four user roles enforced at both the frontend (route guards) and backend (Supabase RLS) levels:
+ShilpSetu has four user roles enforced at both the frontend (route guards) and backend (Supabase RLS) levels:
 
 | Role | Description | How to Access |
 |---|---|---|
@@ -327,7 +327,7 @@ LoomLive has four user roles enforced at both the frontend (route guards) and ba
 
 ## 🗄 Database Schema
 
-LoomLive's database is fully managed through versioned Supabase migrations. Core tables:
+ShilpSetu's database is fully managed through versioned Supabase migrations. Core tables:
 
 ```
 profiles          → User accounts (buyers, artisans, admins)
@@ -362,7 +362,7 @@ supabase db push
 
 ## 🔌 API Overview
 
-LoomLive uses Supabase's auto-generated REST API (PostgREST). All requests require a valid JWT in the `Authorization` header; RLS policies automatically enforce data scope.
+ShilpSetu uses Supabase's auto-generated REST API (PostgREST). All requests require a valid JWT in the `Authorization` header; RLS policies automatically enforce data scope.
 
 **Authentication** (Supabase Auth)
 ```
@@ -509,7 +509,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 **Sudhanshu** — [@Sudhanshu7701](https://github.com/Sudhanshu7701)
 
-Project Link: [https://github.com/Sudhanshu7701/Loom-Live](https://github.com/Sudhanshu7701/Loom-Live)
+Project Link: [https://github.com/Sudhanshu7701/ShilpSetu](https://github.com/Sudhanshu7701/ShilpSetu)
 
 ---
 
@@ -517,6 +517,6 @@ Project Link: [https://github.com/Sudhanshu7701/Loom-Live](https://github.com/Su
 
 Made with ❤️ for India's artisan community
 
-*LoomLive — Preserving craft heritage, one live session at a time.*
+*ShilpSetu — Preserving craft heritage, one live session at a time.*
 
 </div>
